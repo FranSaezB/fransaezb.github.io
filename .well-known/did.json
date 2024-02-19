@@ -1,0 +1,28 @@
+{
+    "@context": [
+      "https://www.w3.org/ns/did/v1",
+      "https://w3id.org/security/suites/jws-2020/v1"
+    ],
+    "id": "did:web:kanzo.tech",
+    "verificationMethod": [
+      {
+        "id": "did:kanzo.tech#owner",
+        "type": "JsonWebKey2020",
+        "controller": "did:web:kanzo.tech",
+        "publicKeyJwk": {
+          "kty": "EC",
+          "crv": "secp256k1",
+          "x": "qYrKM3wMjEFnDji5h5vL1jG59NB3x67VCPm3p09mnTk=",
+          "y": "/b589WBdZHkUvyQ0xO+7IkE0cHInQqcM504ZpJ/9i7M="
+        }
+      }
+    ],
+    "authentication": [
+      "did:web:kanzo.tech#owner"
+    ],
+    "assertionMethod": [
+      "did:web:kanzo.tech#owner"
+    ]
+  }
+ 
+
