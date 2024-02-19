@@ -3,12 +3,12 @@
       "https://www.w3.org/ns/did/v1",
       "https://w3id.org/security/suites/jws-2020/v1"
     ],
-    "id": "did:web:kanzo.tech",
+    "id": "did:web:fransaezb.github.io",
     "verificationMethod": [
       {
-        "id": "did:kanzo.tech#owner",
+        "id": "did:fransaezb.github.io#owner",
         "type": "JsonWebKey2020",
-        "controller": "did:web:kanzo.tech",
+        "controller": "did:web:fransaezb.github.io",
         "publicKeyJwk": {
           "kty": "EC",
           "crv": "secp256k1",
@@ -18,10 +18,10 @@
       }
     ],
     "authentication": [
-      "did:web:kanzo.tech#owner"
+      "did:web:fransaezb.github.io#owner"
     ],
     "assertionMethod": [
-      "did:web:kanzo.tech#owner"
+      "did:web:fransaezb.github.io#owner"
     ]
   }
  
